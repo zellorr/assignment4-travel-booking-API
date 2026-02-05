@@ -234,36 +234,8 @@ double discounted = flight.calculateWithDiscount(10);  // Applies 10% discount
 
 Architecture
 Three-Layer Architecture
-text┌─────────────────────────────────┐
-│  Controller Layer               │  User Interface
-│  - Main.java                    │  - Handles I/O
-│                                 │  - No business logic
-└───────────┬─────────────────────┘
-            │ delegates to
-            ↓
-┌─────────────────────────────────┐
-│  Service Layer                  │  Business Logic
-│  - BookingService               │  - Validation
-│  - CustomerService              │  - Business rules
-│  - Uses repositories            │  - Orchestration
-└───────────┬─────────────────────┘
-            │ uses
-            ↓
-┌─────────────────────────────────┐
-│  Repository Layer               │  Data Access
-│  - BookingRepository            │  - CRUD operations
-│  - CustomerRepository           │  - SQL queries
-│                                 │  - JDBC
-└───────────┬─────────────────────┘
-            │
-            ↓
-┌─────────────────────────────────┐
-│  Database (PostgreSQL)          │
-│  - customers                    │
-│  - bookings                     │
-│  - flight_bookings              │
-│  - hotel_bookings               │
-└─────────────────────────────────┘
+![Uploading image.png…]()
+
 Request Flow Example
 Creating a Booking:
 
