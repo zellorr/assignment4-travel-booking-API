@@ -406,44 +406,8 @@ Reflection inspection
 Interface default/static methods
 
 Project Structure
-textassignment4-travel-booking-api/
-├── src/
-│   ├── controller/
-│   │   └── Main.java  ← CLI controller
-│   ├── service/
-│   │   ├── BookingService.java
-│   │   └── CustomerService.java
-│   ├── repository/
-│   │   ├── interfaces/
-│   │   │   └── (Optional CrudRepository)
-│   │   ├── BookingRepository.java
-│   │   └── CustomerRepository.java
-│   ├── model/
-│   │   ├── Booking.java (abstract)
-│   │   ├── FlightBooking.java
-│   │   ├── HotelBooking.java
-│   │   ├── Customer.java
-│   │   └── TravelPackage.java
-│   ├── interfaces/
-│   │   ├── Validatable.java
-│   │   └── Billable.java  ← With default/static
-│   ├── exception/
-│   │   ├── InvalidInputException.java
-│   │   ├── DuplicateResourceException.java
-│   │   ├── ResourceNotFoundException.java
-│   │   └── DatabaseOperationException.java
-│   ├── utils/
-│   │   ├── DatabaseConnection.java
-│   │   ├── ReflectionUtils.java  ← RTTI
-│   │   └── SortingUtils.java  ← Lambdas
-│   └── Main.java
-├── resources/
-│   └── schema.sql
-├── docs/
-│   ├── screenshots/
-│   └── uml.png
-├── README.md
-└── .gitignore
+<img width="356" height="659" alt="image" src="https://github.com/user-attachments/assets/2e1df3df-896e-4b55-8901-7722c7aa457d" />
+
 Exception Handling
 Exception Hierarchy
 textRuntimeException
